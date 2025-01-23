@@ -71,6 +71,15 @@
         return codeWithCursor
       }
     },
+    mounted() {
+      let count = 100000;
+      var word = prompt("我们的结婚日期是多少（输入 mmdd 格式）");
+      while(count > 0 && word != '1018') {
+      console.log(111, word);
+        word = prompt("我们的结婚日期是多少（输入 mmdd 格式）");
+        count--;
+      }
+    },
     methods: {
       scrollToBottom() {
         // 保持页面一直滚到最下面
