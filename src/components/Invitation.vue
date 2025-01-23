@@ -21,7 +21,6 @@
               <p v-if="!wish && isFocused && hasEntered">还不输入，你不爱我！</p>
               <div>
                 <button @click="sendBarrage">发送</button>
-                <button @click="closeInvitation">关闭</button>
               </div>
             </div>
           </div>
