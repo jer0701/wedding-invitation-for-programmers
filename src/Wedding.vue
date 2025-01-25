@@ -2,7 +2,7 @@
   <div class="container">
     <div v-if="showModal" class="modal">
       <div class="modal-content">
-        <p>我们的结婚日期是多少？</p>
+        <p>我们的结婚日期是？</p>
         <input type="text" v-model="userAnswer" placeholder="请输入 mmdd" />
         <button @click="submitAnswer">提交</button>
       </div>
@@ -98,11 +98,9 @@ button:hover {
 }
 .wedding{
   position: relative;
-  max-width: 568px!important;
   height: 100%;
   min-height: 100%;
   margin: 0 auto;
   background: #2B2B48;
-  perspective: 500px;
 }
 </style>

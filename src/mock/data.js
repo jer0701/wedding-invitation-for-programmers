@@ -7,7 +7,7 @@ export default {
 const { 😆, 🤗 } = 🌎;
 😆.say('好久不见，老婆，有没有想我!❤️');
 🤗.response('很想，想给你生猴子！');
-Utils.makeLove(😆,🤗);
+Utils.love(😆,🤗);
 Utils.generateGift(😆 -> 🤗);
 // 好了我写完了
 // 我要开始运行啦`,
