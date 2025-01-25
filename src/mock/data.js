@@ -11,41 +11,40 @@ Utils.love(😆,🤗);
 Utils.generateGift(😆 -> 🤗);
 // 好了我写完了
 // 我要开始运行啦`,
-  executions: [{
+  executions: [
+    {
+      name:'编译中...',
+      time: '',
+      visible: false
+    }, {
+      name:'打包中',
+      time: '',
+      duration: 0,
+      visible: false
+    },
+    {
+      name:'部署中',
+      time: '',
+      duration: 0,
+      visible: false
+    },
+    {
+      name:'解压中',
+      time: '',
+      duration: 0,
+      visible: false
+    },
+    {
     name:'初始化',
     time: '',
     duration: 0,
     visible: false
-  }, {
-    name:'解压中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'组装中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'打包中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
+  },  , {
     name:'微笑🙂',
     time: '',
     duration: 0,
     visible: false
-  }, {
-    name:'大笑😄',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'编译中...',
-    time: '',
-    visible: false
-  }],
+  }, ],
   barrages: [
     '66666666',
     '我要给你生孩子',
