@@ -39,12 +39,12 @@ Utils.generateGift(😆 -> 🤗);
     time: '',
     duration: 0,
     visible: false
-  },  , {
+  } , {
     name:'微笑🙂',
     time: '',
     duration: 0,
     visible: false
-  }, ],
+  }],
   barrages: [
     '66666666',
     '我要给你生孩子',
