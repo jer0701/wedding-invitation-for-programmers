@@ -5,22 +5,13 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.png">
-            <p>这个礼物喜欢么？</p>
-            <p><b>我爱你宝宝</b></p>
-            <p>这么久不见有没有想我</p>
-            <p><b>美丽的琪琪</b></p>
+            <p>这个是啥？</p>
+            <p>有什么含义</p>
+            <p>让我想想...</p>
+            <p><b>Deadline：2025-02-14 18:00:00</b></p>
             <div class="content-inside-bless">
-              <input
-                placeholder="写下你的感谢词" 
-                @keyup.enter="sendBarrage"
-                @focus="isFocused = true"
-                @blur="isFocused = false, hasEntered = false"
-                v-model="wish"
-                ref="wishInput"
-              >
-              <p v-if="!wish && isFocused && hasEntered">还不输入，你不爱我！</p>
               <div>
-                <button @click="sendBarrage">发送</button>
+                <button @click="closeInvitation">关闭</button>
               </div>
             </div>
           </div>

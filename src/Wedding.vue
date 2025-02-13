@@ -2,8 +2,8 @@
   <div class="container">
     <div v-if="showModal" class="modal">
       <div class="modal-content">
-        <p>我们的结婚日期是？</p>
-        <input type="text" v-model="userAnswer" placeholder="请输入 mmdd" />
+        <p>家里面找找线索（提示在 ML 的房间）</p>
+        <input type="text" v-model="userAnswer" placeholder="请输入四位数字" />
         <button @click="submitAnswer">提交</button>
       </div>
     </div>
@@ -29,7 +29,7 @@
     name: 'Wedding',
     methods:{
       submitAnswer() {
-        if (this.userAnswer.toLowerCase() == '1018') {
+        if (this.userAnswer.toLowerCase() == '5040') {
           this.showModal = false; // 提交后隐藏模态框
         } else {
           alert('再试试！');
